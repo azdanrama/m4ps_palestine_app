@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget gridButton(IconData icon, String label, Widget page) {
-    return  GestureDetector(
+    return GestureDetector(
       onTap: () {
         Navigator.push(
           context,
